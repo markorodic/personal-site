@@ -81,20 +81,18 @@ const IndexPage = () => {
         >
           <ContentBody>
             I'm motivated by solving hard problems and creating interfaces that
-            offer a great user experience. I strive to build elegant solutions,
-            and build products that have a purpose, delight users, and empower
+            offer a great user experience. I strive to build products that have a purpose, delight users, and empower
             them to do more with technology.
           </ContentBody>
           <ContentBody>
-            I'm a front-end engineer at Onfido where I build dashboards to help
+            I work at Onfido where I build dashboards to help
             businesses verify who their users are safely. I attended the Recurse
             Center in New York City&ensp;
             <span role="img" aria-label="US flag">
               🇺🇸
             </span>
-            , a self directed retreat for programmers to work on open source
-            software. There I was able to explore making programming more
-            accessible and human, learning lower-level languages, and pairing
+            , a self directed retreat for programmers. There I was able to explore how to make programming more
+            accessible and human, played around with some lower-level languages, worked on some generative art projects and paired
             with lots of great people.
           </ContentBody>
           <ContentBody>
@@ -106,7 +104,7 @@ const IndexPage = () => {
             <span role="img" aria-label="Australia flag">
               🇦🇺
             </span>
-            for a few years as a kid, and have grown up in London&ensp;
+            &ensp;for a few years as a kid, and have grown up in London&ensp;
             <span role="img" aria-label="UK flag">
               🇬🇧
             </span>
@@ -127,12 +125,7 @@ const IndexPage = () => {
           button="Exploring visual programming"
         >
           <ContentBody>
-            Having spent a few years as a dancer, I wanted to explore
-            programming with movement. I was also interested in how compilers
-            work so I built a visual code editor to explore programming using
-            gestures. The editor takes gestures as input and allows the user to
-            edit text similar to vim commands.
-          </ContentBody>
+          I was interested in exploring programming through movement. I built a code editor that uses gestures to navigate and edit a snippet of code, similar to vim commands.          </ContentBody>
           <Link href="https://markorodic.github.io/lines_of_code/">
             See demo
           </Link>
@@ -143,20 +136,10 @@ const IndexPage = () => {
           button="Building a simple game in four different ways"
         >
           <ContentBody>
-            One the first things I did when I learnt to program was to build a
-            simple game in the browser. I was curious about functional
-            programming and decided to revisit this project as a way to learn
-            more about it.
+          One of the ways I learned how to program was by building games in the browser. They provided me with immediate feedback, on the screen, and dealt with enough complexity to help me reason about fundamental concepts.
           </ContentBody>
           <ContentBody>
-            I built an in-browser clone of the breakout game using four
-            different paradigms; vanilla JS, functional JS, Elm, and Rust
-            (wasm). A game provided me with immediate feedback, on the screen,
-            and dealt with enough complexity to help me understand functional
-            mechanisms whilst allowing me to reason about it. I measured the
-            code execution time of each game using Jest and Puppeteer and mapped
-            the speed of the ball to the respective performance to visualise the
-            execution time of each game.
+          I was curious about functional programming and decided to build a clone of the breakout game using four different paradigms; vanilla JS, functional JS, Elm, and Rust (wasm). I used automated tests, with Jest and Puppeteer, to measure the code execution time of each game and map it to the speed of the ball, creating a visual of execution time between each implementation.
           </ContentBody>
           <Link href="https://markorodic.github.io/the-brick-break/">
             See demo
@@ -171,9 +154,9 @@ const IndexPage = () => {
           <ContentBody>
             Having worked in the identity space over the last couple of years I
             wondered how we could make the verification process more human and
-            show the user their identity in a visual way. At a recent hackathon,
-            together with a Product Designer Fabien Mahe, we created generative
-            art from a user's face detection data to visualise their identity.
+            allow the user to see their identity. At a recent hackathon,
+            together with a Product Designer at Onfido Fabien Mahe, we created generative
+            art print using face detection data.
           </ContentBody>
           <ContentBody>Demo coming shortly.</ContentBody>
         </Card>
