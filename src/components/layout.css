@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+li,
+p,
+a {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #232129;
+}
+
+p,
+li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  color: #d20a5c;
+}
+
+button:hover {
+  color: #d20a5c;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
