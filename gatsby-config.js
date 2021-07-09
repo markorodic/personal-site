@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Portfolio",
+    title: "Marko portfolio",
+    description: `I’m a Software Engineer based in London.`,
+    author: `@Marko`,
+    siteUrl: 'https://www.markorodic.com/'
   },
   plugins: [
     "gatsby-plugin-emotion",
